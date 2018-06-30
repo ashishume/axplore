@@ -1,37 +1,3 @@
-<?php
-   $m="";
-if(isset($_POST['submit_contact']))
-{
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $message=$_POST['message'];
-    
-    $text="
-    Name: $name
-    
-    Email ID: $email
-    
-    Subject: AXPlORE CONTACT FORM
-    
-    Message: 
-    
-    $message
-    
-    ";
-    
-    mail("ashishume@gmail.com","Axplore Contact","$text","From:axplore@axploreworld.com");
-    
-//    if(mail()==true)
-//    {
-//        
-//    }else{
-//        echo $m= "<p>THANKS YOU, WE HAVE RECEIVED YOUR QUERY. WE WILL CONTACT YOU SOON.</p>";
-//    }
-}
-?>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
